@@ -23,3 +23,13 @@
 * Test date_isIncorrect provjerava mogućnost upisivanja prošlog datuma
 * Test time_isCorrect provjerava mogućnost upisivanja budućeg vremena
 * Test time_isIncorrect provjerava mogućnost upisivanja prošlog vremena
+
+## Pokretanje Unit testova
+
+* Otvoriti Android Studio
+* U programskom stablu otvoriti: App -> Java -> com.ferit.tkalcec.digitalschedule (Test). <br>
+  <div align="center"><img src="screenshots/test_location.jpg" width="200"></div><br>
+* Pokrenuti test: desni klik na željeni test te odabradi opciju Run <NazivTesta> ili pritisnuti Ctrl+Shift+F10. <br>
+  <div align="center"><img src="screenshots/test_start.jpg" width="200"></div><br>
+* Rezultat nakon pokretanja NewCourseValidInputTest testa:<br>
+  <div align="center"><img src="screenshots/test_result.jpg" width="200"></div><br>
