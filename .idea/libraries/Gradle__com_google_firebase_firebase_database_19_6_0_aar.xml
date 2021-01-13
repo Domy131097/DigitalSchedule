@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database:19.6.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/firebase-database-19.6.0.aar/8e6f4f924df6f27205a8aa9f46ebee27/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2f982797eee57049a5f020321e0935a8/jetified-firebase-database-19.6.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1ac55671c19017fc13671c13ed97e475/jetified-firebase-database-19.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1ac55671c19017fc13671c13ed97e475/jetified-firebase-database-19.6.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1ac55671c19017fc13671c13ed97e475/jetified-firebase-database-19.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.6.0/5cea49e3c3c9e76a1636c953a845eeb0b5fe0788/firebase-database-19.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.6.0/15580418cc88cf32a0fe9f82c1bc927adc60b987/firebase-database-19.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

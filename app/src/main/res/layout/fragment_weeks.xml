@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.WeeksFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:elevation="@dimen/scheduleCurrentDateElevation">
+
+        <ImageButton
+            android:id="@+id/ibPreviousWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/tvCurrentWeek"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_arrow_left_orange" />
+
+        <TextView
+            android:id="@+id/tvCurrentWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageButton
+            android:id="@+id/ibNextWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tvCurrentWeek"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_arrow_right_orange" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvScheduleWeeksList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

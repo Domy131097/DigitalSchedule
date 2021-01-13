@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-firestore:22.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/jetified-firebase-firestore-22.0.1.aar/481bb77925f4977c3094747b3da816bb/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/714f54a1e1d3664d84993f954ce4a0e1/jetified-firebase-firestore-22.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/da9a738015686105134e56d02df1de05/jetified-firebase-firestore-22.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/da9a738015686105134e56d02df1de05/jetified-firebase-firestore-22.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/da9a738015686105134e56d02df1de05/jetified-firebase-firestore-22.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/22.0.1/da50ac5bfe46566be15a73601f5c3766eda195e7/firebase-firestore-22.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/22.0.1/53dbcdddf7883270d48acf3c5328bd1d4535a03c/firebase-firestore-22.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

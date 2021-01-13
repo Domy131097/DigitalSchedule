@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/itemFacultyCardMargin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemFacultyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/itemFacultyLefMargin"
+                android:layout_marginTop="@dimen/itemFacultyLefMargin"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/itemFacultyNameTextSize" />
+
+            <TextView
+                android:id="@+id/tvItemStudyOfFaculty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/itemFacultyLefMargin"
+                android:layout_marginBottom="@dimen/itemFacultyLefMargin"
+                android:textSize="@dimen/itemStudyOfFacultyTextSize" />
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

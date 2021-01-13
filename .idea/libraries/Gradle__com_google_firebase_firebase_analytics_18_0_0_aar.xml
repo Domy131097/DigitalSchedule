@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-analytics:18.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/firebase-analytics-18.0.0.aar/f960dd94542d71e69c937778a1fb94d4/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/621a9d3e40c319e506cfe49a5ab67c27/jetified-firebase-analytics-18.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1b3eddc6944e5ddf4cc599a4765ab5cc/jetified-firebase-analytics-18.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1b3eddc6944e5ddf4cc599a4765ab5cc/jetified-firebase-analytics-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/1b3eddc6944e5ddf4cc599a4765ab5cc/jetified-firebase-analytics-18.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics/18.0.0/6a8b08d2a93001c8d089863beda57683994fb63d/firebase-analytics-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

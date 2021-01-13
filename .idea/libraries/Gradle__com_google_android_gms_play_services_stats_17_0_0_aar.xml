@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/e1aa8662e8f0585c273d2098fbc95400/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/7b87d5cc6f3191bbd85a886065fb9253/jetified-play-services-stats-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3a1dadcd6866326399336615e5445115/jetified-play-services-stats-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3a1dadcd6866326399336615e5445115/jetified-play-services-stats-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3a1dadcd6866326399336615e5445115/jetified-play-services-stats-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

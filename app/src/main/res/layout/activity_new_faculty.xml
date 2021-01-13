@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.NewFacultyActivity">
+
+    <ProgressBar
+        android:id="@+id/progressAddFaculty"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFacultyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:textSize="@dimen/addFacultyTextViewSize"
+            android:textColor="@color/colorAddFacultyTextView"
+            android:textAlignment="center"
+            android:text="@string/enterFacultyNameText" />
+
+        <EditText
+            android:id="@+id/etFacultyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterFacultyNameHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newFacultyEditTextPadding"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvStudyOfFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addFacultyTextViewSize"
+            android:textColor="@color/colorAddFacultyTextView"
+            android:textAlignment="center"
+            android:text="@string/enterStudyOfFacultyText" />
+
+        <EditText
+            android:id="@+id/etStudyOfFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterStudyOfFacultyHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newFacultyEditTextPadding"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvYearOfStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addFacultyTextViewSize"
+            android:textColor="@color/colorAddFacultyTextView"
+            android:textAlignment="center"
+            android:text="@string/enterYearOfStudyText" />
+
+        <EditText
+            android:id="@+id/etYearOfStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterYearOfStudyHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newFacultyEditTextPadding"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAddNewFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorButtonText"
+            android:text="@string/btnAddNewFacultyText" />
+
+    </LinearLayout>
+</RelativeLayout>

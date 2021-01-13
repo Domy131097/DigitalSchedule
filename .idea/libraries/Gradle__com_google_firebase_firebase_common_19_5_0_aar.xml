@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-common:19.5.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/jetified-firebase-common-19.5.0.aar/13854189cc86a6d065bd2be7784c496e/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/b2248f3af8751a0c33d37a4ff3fab72c/jetified-firebase-common-19.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/d783eb5e4d25e462c5ff8a9ddfc544e8/jetified-firebase-common-19.5.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/d783eb5e4d25e462c5ff8a9ddfc544e8/jetified-firebase-common-19.5.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/d783eb5e4d25e462c5ff8a9ddfc544e8/jetified-firebase-common-19.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-common/19.5.0/74c6d45bd7a7f96f91a986795e875bafc361902b/firebase-common-19.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-common/19.5.0/cd6c1ba1a90712022acda0def30cacec1111a9a/firebase-common-19.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

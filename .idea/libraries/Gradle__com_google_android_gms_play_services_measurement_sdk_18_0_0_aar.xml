@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-sdk:18.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/play-services-measurement-sdk-18.0.0.aar/e413bcf63d2c9d8b3e8109d61faccede/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/c8e7b84939199d90ceafb92c41ded9aa/jetified-play-services-measurement-sdk-18.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/ddec0ef51d1d7fc6383f4224c5326e6d/jetified-play-services-measurement-sdk-18.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/ddec0ef51d1d7fc6383f4224c5326e6d/jetified-play-services-measurement-sdk-18.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/ddec0ef51d1d7fc6383f4224c5326e6d/jetified-play-services-measurement-sdk-18.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-sdk/18.0.0/6a8b08d2a93001c8d089863beda57683994fb63d/play-services-measurement-sdk-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appNameTextSize">35sp</dimen>
+    <dimen name="appNameMarginTop">35dp</dimen>
+    <dimen name="orMargin">20dp</dimen>
+    <dimen name="enterEmailTextSize">18sp</dimen>
+    <dimen name="btnLoginTextSize">20sp</dimen>
+    <dimen name="btnNeedAccTextSize">20sp</dimen>
+    <dimen name="loginLeftRightMargin">40dp</dimen>
+    <dimen name="fabLayoutMargin">20dp</dimen>
+    <dimen name="addFacultyTextViewSize">18sp</dimen>
+    <dimen name="btnMarginTop">10dp</dimen>
+    <dimen name="itemFacultyNameTextSize">16sp</dimen>
+    <dimen name="itemStudyOfFacultyTextSize">14sp</dimen>
+    <dimen name="itemFacultyLefMargin">10dp</dimen>
+    <dimen name="itemFacultyCardMargin">5dp</dimen>
+    <dimen name="itemScheduleCardMargin">5dp</dimen>
+    <dimen name="courseNameTextSize">15sp</dimen>
+    <dimen name="lecturesTypeTextSize">15sp</dimen>
+    <dimen name="itemScheduleListPadding">24dp</dimen>
+    <dimen name="homeFragmentDrawPadding">5dp</dimen>
+    <dimen name="newFacultyEditTextPadding">10dp</dimen>
+    <dimen name="addCourseTextViewSize">18sp</dimen>
+    <dimen name="newCourseEditTextPadding">10dp</dimen>
+    <dimen name="itemCourseCardMargin">5dp</dimen>
+    <dimen name="itemCourseStartMargin">10dp</dimen>
+    <dimen name="itemCourseNameTextSize">16sp</dimen>
+    <dimen name="itemHolderOfCourseTextSize">14sp</dimen>
+    <dimen name="newLectureSpaceBetweenElements">5dp</dimen>
+    <dimen name="itemLectureCardMargin">5dp</dimen>
+    <dimen name="lectureListHeaderPadding">5dp</dimen>
+    <dimen name="dayNameMarginLeftRight">10dp</dimen>
+    <dimen name="scheduleHorizontalLineMargin">16dp</dimen>
+    <dimen name="scheduleCurrentDateElevation">5dp</dimen>
+    <dimen name="examHorizontalLineMargin">16dp</dimen>
+    <dimen name="itemExamCardMargin">3dp</dimen>
+</resources>

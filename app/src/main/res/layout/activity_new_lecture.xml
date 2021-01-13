@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Activities.NewLectureActivity">
+
+    <ProgressBar
+        android:id="@+id/progressAddLecture"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinnerCourseSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerTypeSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements" />
+
+        <TextView
+            android:id="@+id/tvDateSelectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/dateSelectTitleText"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tvDateSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/dateSelectText" />
+
+        <TextView
+            android:id="@+id/tvStartTimeSelectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/startTimeSelectTitleText"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tvStartTimeSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/startTimeSelectText" />
+
+        <TextView
+            android:id="@+id/tvEndTimeSelectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/endTimeSelectTitleText"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tvEndTimeSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/endTimeSelectText" />
+
+        <TextView
+            android:id="@+id/tvSelectLectureLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/selectLectureLocationText"
+            android:textColor="@color/colorBlack" />
+
+        <EditText
+            android:id="@+id/etLectureLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/lectureLocationHint"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvSelectLectureHall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newLectureSpaceBetweenElements"
+            android:gravity="center"
+            android:text="@string/selectLectureHallText"
+            android:textColor="@color/colorBlack" />
+
+        <EditText
+            android:id="@+id/etSelectLocationHall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/selectLocationHallHint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnAddNewLecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:background="@color/colorAccent"
+            android:text="@string/btnAddNewLectureText"
+            android:textColor="@color/colorButtonText" />
+    </LinearLayout>
+
+
+</RelativeLayout>

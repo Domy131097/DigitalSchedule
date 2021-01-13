@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".Activities.RegisterActivity">
+
+    <ProgressBar
+        android:id="@+id/regProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appNameMarginTop"
+        android:src="@mipmap/app_logo"/>
+
+    <EditText
+            android:id="@+id/etRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginLeftRightMargin"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:hint="@string/enterEmailHintText"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etRegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:hint="@string/enterPasswordHint"
+            android:inputType="textPassword"
+            android:padding="10sp" />
+
+        <EditText
+            android:id="@+id/etRegConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:hint="@string/enterConfirmPasswordHint"
+            android:inputType="textPassword"
+            android:padding="10sp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:background="@color/colorAccent"
+            android:text="@string/regText"
+            android:textColor="@color/colorButtonText" />
+
+
+    <Button
+        android:id="@+id/btnRegisterLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loginLeftRightMargin"
+        android:background="@color/colorPrimary"
+        android:text="@string/registerLoginText"
+        android:textColor="@color/colorButtonText" />
+
+</LinearLayout>

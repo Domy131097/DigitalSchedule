@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.NewCourseActivity">
+
+    <ProgressBar
+        android:id="@+id/progressAddCourse"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterCourseNameText" />
+
+        <EditText
+            android:id="@+id/etCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterCourseNameHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvCodeOfCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterCodeOfCourseText" />
+
+        <EditText
+            android:id="@+id/etCodeOfCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterCodeOfCourseHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvHolderOfCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterHolderOfCourseText" />
+
+        <EditText
+            android:id="@+id/etHolderOfCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterHolderOfCourseHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvLecturesHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterLectureHoursText" />
+
+        <EditText
+            android:id="@+id/etLecturesHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterLecturesHoursHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvExercisesHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterExercisesHoursText" />
+
+        <EditText
+            android:id="@+id/etExercisesHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterExercisesHoursHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvAuditoryHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterAuditoryHoursText" />
+
+        <EditText
+            android:id="@+id/etAuditoryHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterAuditoryHoursHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvDesignHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:textSize="@dimen/addCourseTextViewSize"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:text="@string/enterDesignHoursText" />
+
+        <EditText
+            android:id="@+id/etDesignHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterDesignHoursHint"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:padding="@dimen/newCourseEditTextPadding"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAddNewCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/loginLeftRightMargin"
+            android:layout_marginLeft="@dimen/loginLeftRightMargin"
+            android:layout_marginTop="@dimen/btnMarginTop"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorButtonText"
+            android:text="@string/btnAddNewCourseText" />
+
+    </LinearLayout>
+</RelativeLayout>

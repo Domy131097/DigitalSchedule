@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/74e5e56827e1bbe5bfa38615517122d0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/bb2d40af4948615bb9102bb2f9f868d0/lifecycle-runtime-2.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2f688f4ceef4e0da846f4296c5cef970/lifecycle-runtime-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2f688f4ceef4e0da846f4296c5cef970/lifecycle-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2f688f4ceef4e0da846f4296c5cef970/lifecycle-runtime-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

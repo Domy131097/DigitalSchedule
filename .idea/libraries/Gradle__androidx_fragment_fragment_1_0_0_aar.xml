@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.fragment:fragment:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3c333e2a5c2ec998fbff0d022d00c372/fragment-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a5c3d502f4916b1744de2d41b574ccda/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/695807231cfc8ec3423744a458ee4a1d/fragment-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3c333e2a5c2ec998fbff0d022d00c372/fragment-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3c333e2a5c2ec998fbff0d022d00c372/fragment-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/3c333e2a5c2ec998fbff0d022d00c372/fragment-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

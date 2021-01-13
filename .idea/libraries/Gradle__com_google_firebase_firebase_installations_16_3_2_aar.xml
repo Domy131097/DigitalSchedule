@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-installations:16.3.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/firebase-installations-16.3.2.aar/7ce0224b6770e9fbc0fd5d84ad8bfff8/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/a58248945fc27c0306bab7fbd1fd6493/jetified-firebase-installations-16.3.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/c324646d0ddf8eb4ab30f3b6bd1343aa/jetified-firebase-installations-16.3.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/c324646d0ddf8eb4ab30f3b6bd1343aa/jetified-firebase-installations-16.3.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/c324646d0ddf8eb4ab30f3b6bd1343aa/jetified-firebase-installations-16.3.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/firebase-installations/16.3.2/f818deb67c1870049b8a719776406447c9ad11b2/firebase-installations-16.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

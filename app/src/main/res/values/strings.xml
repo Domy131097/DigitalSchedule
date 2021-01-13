@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Digitalni raspored</string>
+    <string name="appNameText">DIGITALNI RASPORED</string>
+    <string name="orText">ILI</string>
+    <string name="logoLoginDes" />
+    <string name="enterEmailHintText">Unesite email</string>
+    <string name="enterPasswordHint">Unesite lozinku</string>
+    <string name="btnLoginText">PRIJAVA</string>
+    <string name="needAccText">Nemate korisnički račun?</string>
+    <string name="loginText">PRIJAVA</string>
+    <string name="loginRegisterText">Nemate korisnički račun?</string>
+    <string name="actionLogoutText">Odjava</string>
+    <string name="actionExitScheduleText">Izlaz iz rasporeda</string>
+    <string name="registerLoginText">Već ste registrirani?</string>
+    <string name="regText">REGISTRACIJA</string>
+    <string name="enterConfirmPasswordHint">Unesite ponovo lozinku</string>
+    <string name="actionAddFacultyText">Dodaj fakultet</string>
+    <string name="facultyActivityTitle">Popis fakulteta</string>
+    <string name="newFacultyActivityTitle">Dodaj fakultet</string>
+    <string name="btnAddNewFacultyText">DODAJ FAKULTET</string>
+    <string name="enterFacultyNameText">Unesite naziv fakulteta</string>
+    <string name="enterFacultyNameHint">Npr. FERIT</string>
+    <string name="enterStudyOfFacultyText">Unesite naziv studija</string>
+    <string name="enterStudyOfFacultyHint">Npr. Informatika</string>
+    <string name="enterYearOfStudyText">Unesite godinu studija</string>
+    <string name="enterYearOfStudyHint">Npr. 3</string>
+    <string name="botScheduleText">Raspored</string>
+    <string name="botTestsText">Ispiti</string>
+    <string name="deleteActionMenuText">Izbriši</string>
+    <string name="actionEditFacultyText">Uredi</string>
+    <string name="botHomeText">Početna</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homeCoursesText">Kolegiji</string>
+    <string name="homeLecturesText">Predavanja</string>
+    <string name="homeTestsText">Ispiti</string>
+    <string name="homeExitText">Izlaz</string>
+    <string name="botMenuLecturesText">Predavanja</string>
+    <string name="lecturesActivityTitle">Popis predavanja</string>
+    <string name="testsActivityTitle">Popis ispita</string>
+    <string name="coursesActivityTitle">Popis kolegija</string>
+    <string name="enterCourseNameText">Unesite naziv kolegija</string>
+    <string name="enterCourseNameHint">Npr. Razvoj mobilnih aplikacija</string>
+    <string name="enterCodeOfCourseText">Unesite šifru kolegija</string>
+    <string name="enterCodeOfCourseHint">Npr. SR605-19</string>
+    <string name="enterHolderOfCourseText">Unesite ime nositelja</string>
+    <string name="enterHolderOfCourseHint">Npr. Ivan Ivić</string>
+    <string name="enterLectureHoursText">Broj sati predavanja</string>
+    <string name="enterLecturesHoursHint">Npr. 45</string>
+    <string name="btnAddNewCourseText">DODAJ KOLEGIJ</string>
+    <string name="enterExercisesHoursText">Broj sati laboratorijskih vježbi</string>
+    <string name="enterExercisesHoursHint">Npr. 30</string>
+    <string name="enterAuditoryHoursText">Broj sati auditornih vježbi</string>
+    <string name="enterAuditoryHoursHint">Npr. 15</string>
+    <string name="enterDesignHoursText">Broj sati konstrukcijskih vježbi</string>
+    <string name="enterDesignHoursHint">Npr. 30</string>
+    <string name="newCourseActivityTitle">Dodaj kolegij</string>
+    <string name="selectCourseText">Odaberite kolegij</string>
+    <string name="typeSelectText">Odaberite vrstu</string>
+    <string name="dateSelectText">Odaberi</string>
+    <string name="startTimeSelectText">Odaberi</string>
+    <string name="endTimeSelectText">Odaberi</string>
+    <string name="newLectureActivityTitle">Izradi predavanje</string>
+    <string name="dateSelectTitleText">Datum</string>
+    <string name="startTimeSelectTitleText">Vrijeme početka</string>
+    <string name="endTimeSelectTitleText">Vrijeme završetka</string>
+    <string name="btnAddNewLectureText">IZRADI PREDAVANJE</string>
+    <string name="selectLectureLocationText">Odabir lokacije</string>
+    <string name="selectLectureHallText">Dvorana održavanja</string>
+    <string name="selectLocationHallHint">Npr. K3-1</string>
+    <string name="lectureLocationHint">Npr. Trpimirova 13</string>
+    <string name="tabItemDaysText">DANI</string>
+    <string name="tabItemWeeksText">TJEDNI</string>
+    <string name="tabItemMonthsText">MJESECI</string>
+    <string name="btnAddNewExamText">DODAJ ISPIT</string>
+    <string name="newExamActivityTitle">Dodaj ispit</string>
+
+    <string-array name="lectureTypeList">
+        <item>Odabir vrste...</item>
+        <item>Predavanje</item>
+        <item>Laboratorijske vježbe</item>
+        <item>Auditorne vježbe</item>
+        <item>Konstrukcijske vježbe</item>
+        <item>Kolokvij</item>
+    </string-array>
+
+    <string-array name="examTypeList">
+        <item>Odabir vrste...</item>
+        <item>Pismeni ispit</item>
+        <item>Usmeni ispit</item>
+    </string-array>
+</resources>

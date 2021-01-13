@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:protolite-well-known-types:17.1.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-1/files-1.1/protolite-well-known-types-17.1.1.aar/411e2477683a020c7e0d6841d16965c1/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/728f2a60d155b618dcede8a1725e5e83/jetified-protolite-well-known-types-17.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2b51011fe9aad965b6b85e03be54c687/jetified-protolite-well-known-types-17.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2b51011fe9aad965b6b85e03be54c687/jetified-protolite-well-known-types-17.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/transforms-2/files-2.1/2b51011fe9aad965b6b85e03be54c687/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../GDi/GDi W4 Android/caches/modules-2/files-2.1/com.google.firebase/protolite-well-known-types/17.1.1/5fbe3622c8be8565ee56aa41117b13f095965904/protolite-well-known-types-17.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

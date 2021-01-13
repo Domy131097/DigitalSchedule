@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#246EB9</color>
+    <color name="colorPrimaryDark">#26547c</color>
+    <color name="colorAccent">#e94f37</color>
+    <color name="colorBackground">#E5F4E3</color>
+    <color name="colorButtonText">#ffffff</color>
+    <color name="whiteTransparent">#80646464</color>
+    <color name="colorAddFacultyTextView">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLecture">#688e26</color>
+    <color name="colorExercise">#9e2a2b</color>
+    <color name="colorAuditory">#246EB9</color>
+    <color name="colorDesign">#f77f00</color>
+    <color name="colorExam">#246EB9</color>
+</resources>

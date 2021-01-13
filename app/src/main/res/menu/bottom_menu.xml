@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/botMenuHome"
+        android:icon="@mipmap/ic_action_home"
+        android:title="@string/botHomeText" />
+    <item
+        android:id="@+id/botMenuLectures"
+        android:icon="@mipmap/ic_action_lectures"
+        android:title="@string/botMenuLecturesText" />
+    <item
+        android:id="@+id/botMenuTests"
+        android:icon="@mipmap/ic_action_test"
+        android:title="@string/botTestsText" />
+</menu>

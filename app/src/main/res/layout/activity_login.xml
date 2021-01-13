@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/loginProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appNameMarginTop"
+        app:srcCompat="@mipmap/app_logo" />
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loginLeftRightMargin"
+        android:layout_marginRight="@dimen/loginLeftRightMargin"
+        android:layout_marginTop="@dimen/appNameMarginTop"
+        android:hint="@string/enterEmailHintText"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loginLeftRightMargin"
+        android:layout_marginRight="@dimen/loginLeftRightMargin"
+        android:hint="@string/enterPasswordHint"
+        android:inputType="textPassword"
+        android:padding="10sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loginLeftRightMargin"
+        android:layout_marginTop="@dimen/btnMarginTop"
+        android:layout_marginRight="@dimen/loginLeftRightMargin"
+        android:background="@color/colorAccent"
+        android:text="@string/loginText"
+        android:textColor="@color/colorButtonText" />
+
+    <TextView
+        android:id="@+id/tvOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/orMargin"
+        android:layout_marginBottom="@dimen/orMargin"
+        android:text="@string/orText"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnLoginRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loginLeftRightMargin"
+        android:layout_marginRight="@dimen/loginLeftRightMargin"
+        android:layout_marginBottom="@dimen/loginLeftRightMargin"
+        android:background="@color/colorPrimary"
+        android:text="@string/loginRegisterText"
+        android:textColor="@color/colorButtonText" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640357285973",
+    "firebase_url": "https://digitalscedule.firebaseio.com",
+    "project_id": "digitalscedule",
+    "storage_bucket": "digitalscedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640357285973:android:a0b631f942200e84",
+        "android_client_info": {
+          "package_name": "com.ferit.tkalcec.digitalschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640357285973-120t1p66nudaas377h137tigob2qku8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferit.tkalcec.digitalschedule",
+            "certificate_hash": "a4efd4f7f87684700fcec0af160d20b3f4f84573"
+          }
+        },
+        {
+          "client_id": "640357285973-s1gg9u8aeghjmss90usgpv2s41o85vth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANvqK3Kj6I8fUCvcB0XnZfU7M7afG6SlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640357285973-s1gg9u8aeghjmss90usgpv2s41o85vth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
