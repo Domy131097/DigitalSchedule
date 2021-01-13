@@ -30,6 +30,6 @@
 * U programskom stablu otvoriti: App -> Java -> com.ferit.tkalcec.digitalschedule (Test). <br>
   <div align="center"><img src="https://i.imgur.com/HAYTU6d.png" width="300"></div><br>
 * Pokrenuti test: desni klik na željeni test te odabradi opciju Run <NazivTesta> ili pritisnuti Ctrl+Shift+F10. <br>
-  <div align="center"><img src="https://i.imgur.com/hmDtfTf.png" width="200"></div><br>
+  <div align="center"><img src="https://i.imgur.com/hmDtfTf.png" width="300"></div><br>
 * Rezultat nakon pokretanja NewCourseValidInputTest testa:<br>
-  <div align="center"><img src="https://i.imgur.com/7cJr7qD.png" width="200"></div><br>
+  <div align="center"><img src="https://i.imgur.com/7cJr7qD.png" width="300"></div><br>
