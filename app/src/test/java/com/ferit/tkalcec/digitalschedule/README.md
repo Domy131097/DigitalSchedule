@@ -1,6 +1,6 @@
 # DIGITALNI RASPORED 
 
-## Opis Junit testova
+## Opis Unit testova
 
 ###  NewCourseValidInputTest - sadrži testove za provjeru ispravnosti unosa prilikom dodavanja novog kolegija
 * Test hour_isCorrect provjerava mogućnost upisivanja pozitivnog broja sati
