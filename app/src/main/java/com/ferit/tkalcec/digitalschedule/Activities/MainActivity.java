@@ -15,6 +15,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.ferit.tkalcec.digitalschedule.Fragments.HomeFragment;
 import com.ferit.tkalcec.digitalschedule.Fragments.ScheduleFragment;
 import com.ferit.tkalcec.digitalschedule.Fragments.ExamsFragment;
+import com.ferit.tkalcec.digitalschedule.PreferenceManagement;
 import com.ferit.tkalcec.digitalschedule.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -31,11 +32,14 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private ScheduleFragment scheduleFragment;
     private ExamsFragment examsFragment;
 
+    private PreferenceManagement mPrefManagement;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mPrefManagement = new PreferenceManagement();
         mAuth = FirebaseAuth.getInstance();
 
         setUpUI();
@@ -127,5 +131,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             default:
                 return false;
         }
+    }
+
+    public void exitFromScheduler() {
+        mPrefManagement.deleteFacultyData(getApplicationContext());
+        sendToFaculty();
     }
 }
