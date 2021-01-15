@@ -3,6 +3,7 @@
 ## Opis Android UI testova
 
 * Detaljan opis testova nalazi se u Test Documentation.docx datoteci.
+* Testovi su snimljeni pomoću Espresso frameworka
 
 ## Pokretanje UI testova
 * Otvoriti Android Studio
