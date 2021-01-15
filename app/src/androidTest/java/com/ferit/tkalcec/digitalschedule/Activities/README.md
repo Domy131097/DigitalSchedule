@@ -12,4 +12,4 @@
   <br><div align="center"><img src="https://i.imgur.com/DZWoOWI.png" width="300"></div><br>
 Klasa 'ActivityTestSuite' sadrži naredbu koja obuhvaća sve testove te ih pokreće zadanim redoslijedom. Testove je moguće pokrenuti i zasebno na način da odaberemo željeni test i odaberemo opciju Run <NazivTesta>.
 * Rezultat nakon pokretanja svih testova:<br>
-  <br><div align="center"><img src="https://i.imgur.com/rs90mLQ.png" width="800"></div><br>
+  <br><div align="center"><img src="https://i.imgur.com/rs90mLQ.png" width="900"></div><br>
