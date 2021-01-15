@@ -43,11 +43,14 @@ public class RegisterActivityTest {
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
     private FirebaseAuth mAuth;
+    private MainActivity mainActivity;
 
     @Before
     public void register_setUp() throws Exception {
         mAuth = FirebaseAuth.getInstance();
+        mainActivity = mActivityTestRule.getActivity();
         mAuth.signOut();
+        mainActivity.exitFromScheduler();
     }
 
     @Test
