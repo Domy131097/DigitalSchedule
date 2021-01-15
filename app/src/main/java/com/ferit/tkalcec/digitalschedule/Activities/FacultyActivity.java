@@ -135,8 +135,6 @@ public class FacultyActivity extends AppCompatActivity implements View.OnClickLi
                                     facultyAdapter.notifyDataSetChanged();
                                 }
                             }
-                        } else {
-                            addNewFaculty();
                         }
                     }
                 }
